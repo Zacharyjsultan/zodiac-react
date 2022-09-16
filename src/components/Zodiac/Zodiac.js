@@ -8,7 +8,8 @@ export default function Zodiac(props) {
       <div className='zodiac'>
         <span>{props.name}</span>
         <span>{props.dates}</span>
-        <img alt={props.name} src={`${process.env.PUBLIC_URL}/signs/${props}.jpeg` }/>
+        <span>{props.symbol}</span>
+        <img alt={props.name} src={`${process.env.PUBLIC_URL}/signs/${props.name}.jpeg` }/>
       </div>
     </>
   );
