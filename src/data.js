@@ -1,4 +1,4 @@
-export const zodiacSigns = [
+export const zodiac = [
   {
     id: '1',
     name: 'aquarius',
